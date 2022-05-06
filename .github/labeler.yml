@@ -1,0 +1,6 @@
+pr:
+- package/pr/*
+- package/pr/**/*
+test:
+- package/test/*
+- package/test/**/*

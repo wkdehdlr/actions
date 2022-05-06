@@ -1,4 +1,4 @@
 pr:
-- pr/**/*
+- src/main/java/com/example/actions/pr/**/*
 test:
-- test/**/*
+- ../src/main/java/com/example/actions/test/**/*

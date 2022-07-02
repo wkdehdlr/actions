@@ -16,16 +16,9 @@ jobs:
       pull-requests: write
 
     steps:
-#    - uses: actions/labeler@v4
-#      with:
-#        repo-token: "${{ secrets.ACTIONS_TOKEN }}"
-
     - name: Set up Maven
       uses: wkdehdlr/setup-maven@v4.4.1
       with:
         maven-version: 3.6.3
 
-#      - name: Setup Maven Action
-#        uses: s4u/maven-settings-action@v2.6.0
-#
       - run: mvn -v

@@ -23,4 +23,4 @@ jobs:
     - name: Set up Maven
       uses: wkdehdlr/setup-maven@v4.4.1
       with:
-        maven-version: 3.8.2
+        maven-version: 3.6.3

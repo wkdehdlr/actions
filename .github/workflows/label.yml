@@ -13,12 +13,13 @@ on:
 
 jobs:
   build:
+
     runs-on: self-hosted
 
     steps:
-    - name: Set up Maven
-      uses: wkdehdlr/setup-maven@v4.4.1
-      with:
-        maven-version: 3.6.3
+      - name: Set up Maven
+        uses: wkdehdlr/setup-maven@v4.4.1
+        with:
+          maven-version: 3.6.3
 
       - run: mvn -v
